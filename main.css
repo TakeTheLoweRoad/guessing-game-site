@@ -1,0 +1,28 @@
+#header, #footer {
+	text-align: center;
+	color:  #ffff00;
+	background-color:  #000080;
+	font-family: "Times New Roman";
+}
+
+section{
+	padding: 25px;
+}
+
+.outline {
+	border: 2px black solid;
+}
+
+img {
+	width: 25%;
+	margin: 15px 0 0 0;
+}
+
+div {
+	padding: 10px;
+}
+
+button{
+	background-color: purple;
+	margin: 20px;
+}
