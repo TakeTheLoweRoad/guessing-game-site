@@ -4,6 +4,7 @@
 
 	<head>
 		<title>The Guessing Game</title>
+		<script src="guessinggame.js"></script>
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	</head>
@@ -14,14 +15,20 @@
 				<div>
 					<form>
 					  Guess a number between 1 and 100.<br>
-					  <input type="text" name="guess"><br>
+					  <input type="text" name="guess" id = "guess"><br>
 					</form>
 				</div>
 				<div>
-					<button type="button">Hint</button>
-					<button type="button">Play Again</button>
-					<button type="button">Quote of the Day</button>
-					<button type="button">Lyrics</button>
+
+					<button type="button" onclick="playersGuessSubmission()">
+					Submit a Guess</button>
+					
+					<button type="button" onclick="provideHint()">
+					Hint</button>
+
+					<button type="button" onclick="playAgain()">
+					Play Again</button>
+					
 				</div>
 			<img src="images/thinker.jpg" alt="Picture of Rodin's sculpture The Thinker">
 		</section>
